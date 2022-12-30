@@ -72,7 +72,7 @@ section{
 	width: 100%;
 	position: relative;
 	/* background: url(background1.jpg); */
-	background: url(../img/background.jpg);
+	background: url(background.jpg);
 	background-size:cover;
 	background-position:right;
 	display: flex;
