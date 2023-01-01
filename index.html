@@ -213,12 +213,14 @@
 		</div>
  
 		<div class="contact-form">
-			<form action="">
-				<input type="" placeholder="Enter Your Name" required>
-				<input type="email" placeholder="Enter Your Email" required>
-				<input type="" placeholder="Enter Your Subject">
-				<textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+			<form action="https://formspree.io/f/mqkokkga" method="POST" id="my-form">
+				<input type="text"  name="name" placeholder="Enter Your Name" required>
+				<input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+				<input type="text" id="subject" name="subject" placeholder="Enter Your Subject">
+				<textarea name="message" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
 				<input type="submit" value="Submit" class="send">
+				<p id="my-form-status"></p>
+				
 			</form>
 		</div>
 	</section>
