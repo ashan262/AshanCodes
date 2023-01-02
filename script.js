@@ -27,7 +27,16 @@ sr.reveal('.home-text',{delay:190, origin:'bottom'})
 
 sr.reveal('.about,.services,.portfolio,.contact',{delay:200, origin:'bottom'})
 
-// function for contact form submision
+// Fixed Contact button script
+let socialLinks= document.querySelector(".FSocial");
+		let shareLinks= document.querySelector(".FLinks");
+		let changeIcon= document.querySelector(".bx-conversation")
+		console.log(changeIcon)
+		socialLinks.addEventListener("click", ()=>{
+			shareLinks.classList.toggle("Active")
+			changeIcon.classList.toggle('bx-conversation')
+			changeIcon.classList.toggle('bxs-conversation')
+		})
 
 
 
