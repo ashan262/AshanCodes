@@ -346,6 +346,21 @@ form textarea{
 	font-weight: 600;
 	letter-spacing: 1px;
 }
+.FLinks ul{
+	display: grid;
+	gap: 0.5rem;
+}
+
+.FLinks li{
+	display: none;
+	opacity: 0;
+	transition: all 0.5s ease;
+}
+.FLinks.Active li{
+	opacity: 1;
+	display: block;
+	transition: all 0.5s ease;
+}
 .top{
 	position: fixed;
 	bottom: 2.1rem;
