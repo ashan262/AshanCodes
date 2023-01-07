@@ -22,10 +22,28 @@ const sr = ScrollReveal ({
 	duration: 2500,
 	reset: true
 })
-
-sr.reveal('.home-text',{delay:190, origin:'bottom'})
-
-sr.reveal('.about,.services,.portfolio,.contact',{delay:200, origin:'bottom'})
+sr.reveal('.home-text', {deley:190, origin:'top'})
+sr.reveal('.about-img', {deley:190, origin:'left'})
+sr.reveal('.about-text', {deley:190, origin:'right'})
+sr.reveal('.main-text', {deley:190, origin:'bottom'})
+// Services list 
+sr.reveal('#bx1', {deley:190, origin:'left'})
+sr.reveal('#bx2', {deley:190, origin:'right'})
+//sr.reveal('#bx3', {deley:190, origin:'left'})
+// protfolio list
+sr.reveal('#r1', {deley:190, origin:'left'})
+sr.reveal('#r2', {deley:190, origin:'right'})
+sr.reveal('#r3', {deley:190, origin:'left'})
+sr.reveal('#r4', {deley:190, origin:'right'})
+sr.reveal('#r5', {deley:190, origin:'left'})
+sr.reveal('#r6', {deley:190, origin:'right'})
+// Contact 
+sr.reveal('.contact-text', {deley:190, origin:'left'})
+sr.reveal('.contact-form', {deley:190, origin:'right'})
+// Bottom
+sr.reveal('.last-text', {deley:190, origin:'bottom'})
+//sr.reveal('.home-text',{delay:190, origin:'bottom'})
+//sr.reveal('.about,.services,.portfolio,.contact',{delay:200, origin:'bottom'})
 
 // Fixed Contact button script
 let socialLinks= document.querySelector(".FSocial");
