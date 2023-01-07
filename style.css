@@ -365,6 +365,7 @@ form textarea{
 	position: fixed;
 	bottom: 2.1rem;
 	right: 2.1rem;
+	gap:1rem;
 }
 .top i{
 	color: var(--text-color);
