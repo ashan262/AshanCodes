@@ -231,8 +231,9 @@ header.sticky{
 	justify-content: space-between;
 	margin-bottom: 1rem;
 }
-.row h3{
+.row a h3{
 	font-size: 25px;
+	text-decoration: none;
 	font-weight: 700;
 	color: #fff;
 }
