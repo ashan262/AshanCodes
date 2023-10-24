@@ -234,6 +234,7 @@ header.sticky{
 .row h3{
 	font-size: 25px;
 	font-weight: 700;
+	color: #fff;
 }
 .row h6{
 	color: var(--main-color);
